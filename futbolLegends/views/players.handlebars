@@ -1,0 +1,20 @@
+
+<center><h1>Our legendary players</h1></center>
+
+
+{{#each players}}
+    <h3> Player: {{ firstname }} {{ lastName}}</h3>
+    <p><i>Nickname: {{ nickname }}</i></p>
+    <p>Birth Country: {{ birthCountry }}</p>
+    <p>World Cup Wins: {{ worldCupWins }}</p>
+    
+    <p>Clubs:</p>
+    <ul> 
+    {{#each this.clubs}}
+        <li>{{ @index }} : {{ team }} - <i>{{ year }}</i></li>
+
+    {{/each}}
+    </ul>
+    <hr>
+    
+{{/each}}
