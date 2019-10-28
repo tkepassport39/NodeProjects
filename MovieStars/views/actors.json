@@ -1,0 +1,41 @@
+{
+    "actors": 
+    [ 
+        {
+            "title": "Jackie Chan",
+            "firstname": "Jackie",
+            "lastname": "Chan",
+            "actor_pic": "JackieChan",
+            "tag": "I'm better than Bruce Lee",
+            "content": "Jackie Chan began studying martial arts, drama, acrobatics and singing at age seven. Once considered a likely successor to Bruce Lee in Hong Kong cinema, Chan instead developed his own style of martial arts blended with screwball physical comedy. He became a huge star throughout Asia and went on to have hits in the United States as well.",
+            "movies": ["Who am I?", "Police Story", "Drunken Master"]
+        },
+        {
+            "title": "Jean-Claude Van Damme",
+            "firstname": "Jean Claude",
+            "lastname": "Van Damme",
+            "actor_pic": "JeanClaudeVanDamme",
+            "tag": "The Muscles from Brussels",
+            "content": "Van Damme was born Jean-Claude Camille François Van Varenberg in Berchem-Sainte-Agathe, Brussels, Belgium, to Eliana and Eugène Van Varenberg, an accountant. 'The Muscles from Brussels' started martial arts at the age of eleven. His father introduced him to martial arts when he saw his son was physically weak.",
+            "movies": ["Bloodsport", "Kickboxer", "Lionheart"]
+        },
+        {
+            "title": "Sylvester Stallone",
+            "firstname": "Sylvester",
+            "lastname": "Stallone",
+            "actor_pic": "SylvesterStallone",
+            "tag": "Mayweather has no chance vs Rocky Balboa",
+            "content": "Stallone mostly only found gradual work as an extra or side character in films with a sizeable budget until he achieved his greatest critical and commercial success as an actor, starting in 1976 with his self-created role as the boxer Rocky Balboa, in the first film of the successful Rocky series (1976-2018). In the films, Rocky is portrayed as an underdog fighter that does battle with numerous brutal opponents, and wins the world heavyweight championship twice.",
+            "movies": ["Rocky", "First Blood", "Rambo"]
+        },
+        {
+            "title": "Will Smith",
+            "firstname": "Will",
+            "lastname": "Smith",
+            "actor_pic": "WillSmith",
+            "tag": "No one will ever be as fresh as Prince of Bel-Air",
+            "content": "Willard Carroll \"Will\" Smith, Jr. (born September 25, 1968) is an American actor, comedian, producer, rapper, and songwriter. He has enjoyed success in television, film, and music. In April 2007, Newsweek called him \"the most powerful actor in Hollywood\".",
+            "movies": ["The Fresh Prince of Bel-Air", "Gemini Man", "The Pursuit of Happyness"]
+        }
+    ]   
+}
