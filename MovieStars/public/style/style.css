@@ -1,5 +1,9 @@
+.container{
+    margin: 0;
+}
+
 .custom-container {
-    background-color: beige;
+    background-color: #ffe7d1;
     width: 1600px;
     height: 700px;
     margin: 2%;
@@ -7,7 +11,6 @@
 }
 
 .cu-left-container {
-    background-color: green;
     width: 800px;
     min-height: 90%;
     left: 0px;
@@ -15,8 +18,21 @@
 
 }
 
+.names{
+    margin: 17% 0 0 3%;
+    
+}
+
+.actor-content{
+    padding: 3% 3% 0 3%;
+    text-align: left;
+}
+
+.movie-list{
+    padding:3%;
+}
+
 .cu-right-container {
-    background-color: coral;
     width: 800px;
     min-height: 100%;
     float: left;
@@ -24,9 +40,50 @@
 }
 
 .cu-footer {
-    background-color: pink;
+    background-color: #f6c89f;
     bottom: 0px;
     height: 10%;
     width: 70%;
     position: absolute;
+    border-right: 4px solid #4b8e8d;
+    border-top: 4px solid #4b8e8d;
+    border-bottom: 4px solid #4b8e8d;
+}
+
+.footer{
+    float:right;
+    padding-right: 20px;
+}
+
+.list-inline{
+    width: 600px;
+    margin: 10px 0 0 0;
+}
+
+h3{
+    margin-bottom: 0px;
+    color: #4b8e8d;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.list-inline-item{
+    padding: 1%;
+}
+
+a{
+    color: #396362;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: #4b8e8d;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.pages{
+    border-right: 1px;
 }

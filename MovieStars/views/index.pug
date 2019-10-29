@@ -1,22 +1,37 @@
 extends master-view.pug
 
 block content
-    .cu-left-container
-        h1 #{firstname}
-        h2 #{lastname}
-        p #{content}
-        p 
-            button(class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseMovies" aria-expanded="false" aria-controls="collapseMovies") Movie List
-        div(id="collapseMovies" class="collapse")
-            div(class="card card-body")
-                ul 
-                    each movie in movies
-                        .text-info
-                            li=movie
-        
-    .cu-right-container
-        //- var actors = `${firstname}${lastname}`
-        img(src=`/images/${actor_pic}.jpg`, class='rounded float-right', alt=`${actor_pic}`, width="100%", height="700")
+    .custom-container
+        .cu-left-container
+            .names
+                h3 #{firstname}
+                h1 #{lastname}
+            div(class="actor-content text-muted")
+                p #{content}
+            .movie-list 
+                p
+                    button(class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseMovies" aria-expanded="false" aria-controls="collapseMovies") Movie List
+                div(id="collapseMovies" class="collapse")
+                    div(class="card card-body")
+                        ul 
+                            each movie in movies
+                                .text-info
+                                    b
+                                        li=movie
+            
+        .cu-right-container
+            //- var actors = `${firstname}${lastname}`
+            img(src=`/images/${actor_pic}.jpg`, class='rounded float-right', alt=`${actor_pic}`, width="100%", height="700")
 
-    .cu-footer
-        h1 hello i'm the footer
+        .cu-footer
+            .footer
+                ul(class="list-inline")
+                    a(class="pages" href="/jackie")
+                        li(class="list-inline-item") Jackie Chan
+                    a(class="pages" href="/sylvester")
+                        li(class="list-inline-item") | Sylvester Stallone 
+                    a(class="pages" href="/jean")
+                        li(class="list-inline-item") | Jean-Claude Van Damme
+                    a(class="pages" href="/will")
+                        li(class="list-inline-item") | Will Smith
+                
