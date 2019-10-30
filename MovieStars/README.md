@@ -5,7 +5,7 @@ More information on Pug can be found here:
 
 Server.js is reading from the data from actors.json file. I'm rendering the front end with Pug and bootstrap. 
 
-Movie list button is a bootstrap button that expanse when clicked on. 
+Movie list button is a bootstrap button that expands when clicked on. 
 
 *Screenshot example:*
 
