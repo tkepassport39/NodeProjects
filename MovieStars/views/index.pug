@@ -3,6 +3,11 @@ extends master-view.pug
 block content
     .custom-container
         .cu-left-container
+            .quote-msg
+                ul(class="list-inline")
+                    li(class="list-inline-item") 
+                        h2 Quote
+                    li(class="list-inline-item text-muted ilta") " #{tag} " 
             .names
                 h3 #{firstname}
                 h1 #{lastname}
@@ -10,7 +15,7 @@ block content
                 p #{content}
             .movie-list 
                 p
-                    button(class="btn btn-info" type="button" data-toggle="collapse" data-target="#collapseMovies" aria-expanded="false" aria-controls="collapseMovies") Movie List
+                    button(class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseMovies" aria-expanded="false" aria-controls="collapseMovies") Movie List
                 div(id="collapseMovies" class="collapse")
                     div(class="card card-body")
                         ul 
@@ -28,10 +33,13 @@ block content
                 ul(class="list-inline")
                     a(class="pages" href="/jackie")
                         li(class="list-inline-item") Jackie Chan
+                    li(class="list-inline-item") |
                     a(class="pages" href="/sylvester")
-                        li(class="list-inline-item") | Sylvester Stallone 
+                        li(class="list-inline-item") Sylvester Stallone
+                    li(class="list-inline-item") | 
                     a(class="pages" href="/jean")
-                        li(class="list-inline-item") | Jean-Claude Van Damme
+                        li(class="list-inline-item") Jean-Claude Van Damme
+                    li(class="list-inline-item") |
                     a(class="pages" href="/will")
-                        li(class="list-inline-item") | Will Smith
+                        li(class="list-inline-item") Will Smith
                 

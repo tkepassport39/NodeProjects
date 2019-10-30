@@ -3,7 +3,7 @@
 }
 
 .custom-container {
-    background-color: #ffe7d1;
+    background-color: white;
     width: 1600px;
     height: 700px;
     margin: 2%;
@@ -15,16 +15,14 @@
     min-height: 90%;
     left: 0px;
     float: left;
-
 }
 
 .names{
-    margin: 17% 0 0 3%;
-    
+    margin: 3% 0 0 3%;
 }
 
 .actor-content{
-    padding: 3% 3% 0 3%;
+    padding: 3% 10% 0 10%;
     text-align: left;
 }
 
@@ -36,18 +34,17 @@
     width: 800px;
     min-height: 100%;
     float: left;
-
 }
 
 .cu-footer {
-    background-color: #f6c89f;
+    background-color: white;
     bottom: 0px;
     height: 10%;
     width: 70%;
     position: absolute;
     border-right: 4px solid #4b8e8d;
     border-top: 4px solid #4b8e8d;
-    border-bottom: 4px solid #4b8e8d;
+    border-bottom: 2px solid #4b8e8d;
 }
 
 .footer{
@@ -65,12 +62,27 @@ h3{
     color: #4b8e8d;
 }
 
+.quote-msg{
+    margin: 5% 0% 0% 3%;
+    border-bottom: 2px solid #4b8e8d;
+}
+
+h2{
+    padding: 0;
+    color: #4b8e8d;
+    font-weight: bold;
+}
+
+.ilta{
+    font-style: italic;
+}
+
 h1{
     font-weight: bold;
 }
 
 .list-inline-item{
-    padding: 1%;
+   /* padding: 1%; */
 }
 
 a{
@@ -84,6 +96,6 @@ a:hover, a:active{
     font-weight: bold;
 }
 
-.pages{
-    border-right: 1px;
+a.pages{
+    padding-right: 10px;
 }
